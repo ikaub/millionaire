@@ -1,0 +1,6 @@
+{
+    "src/**/*.{ts,tsx}": [
+        "prettier --config .prettierrc.yaml --write",
+        "eslint --fix"
+    ]
+}
