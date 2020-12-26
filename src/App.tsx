@@ -5,6 +5,8 @@ import { Game } from './pages/Game/Game';
 import { GameOver } from './pages/GameOver/GameOver';
 import { Start } from './pages/Start/Start';
 
+import './styles/index.scss';
+
 const App: React.FC = () => {
   return (
     <Switch>

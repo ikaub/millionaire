@@ -11,6 +11,7 @@
     "@types/react": "^16.9.53",
     "@types/react-dom": "^16.9.8",
     "@types/react-router-dom": "^5.1.6",
+    "node-sass": "^4.14.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-router-dom": "^5.2.0",
@@ -45,6 +46,7 @@
     ]
   },
   "devDependencies": {
+    "@types/react-test-renderer": "^17.0.0",
     "@typescript-eslint/eslint-plugin": "^4.11.0",
     "@typescript-eslint/parser": "^4.11.0",
     "eslint": "^7.16.0",
@@ -56,6 +58,7 @@
     "eslint-plugin-react-hooks": "^4.2.0",
     "husky": "^4.3.6",
     "lint-staged": "^10.5.3",
-    "prettier": "^2.2.1"
+    "prettier": "^2.2.1",
+    "react-test-renderer": "^17.0.1"
   }
 }

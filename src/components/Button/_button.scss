@@ -1,0 +1,21 @@
+.btn {
+  background-color: $orange100;
+  height: 64px;
+  width: 300px;
+  color: $white100;
+  font-weight: 600;
+  font-size: 2rem;
+  border-radius: 12px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &:hover {
+    background-color: $orange80;
+  }
+
+  &:active {
+    background-color: $orange120;
+  }
+}

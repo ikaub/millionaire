@@ -1,0 +1,24 @@
+.start-screen {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .welcome-label {
+    display: block;
+    font-weight: 600;
+    font-size: 56px;
+    max-width: 500px;
+    margin-bottom: 64px;
+  }
+
+  &::after {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-color: $orange5;
+    clip-path: polygon(100% 0, 0 100%, 100% 100%);
+    z-index: -1;
+  }
+}
