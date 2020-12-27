@@ -1,5 +1,8 @@
-@import './_variables.scss';
-@import './_base.scss';
+@import './variables';
+@import './base';
 @import './../components//Button/button';
 @import './../pages//Start/start-screen';
-@import './_tile.scss';
+@import './../components/TileAnswer/tile';
+@import './../components/TileGain/tile-gain';
+@import './../pages/Game/game';
+@import './../components/Hamburger/hamburger';

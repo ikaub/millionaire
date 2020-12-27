@@ -1,0 +1,20 @@
+.tile__previous,
+.tile__next {
+  fill: $white100;
+  stroke: $black40;
+}
+
+.tile__active {
+  fill: $white100;
+  stroke: $orange100;
+  color: $orange100;
+}
+
+.tile__previous {
+  color: $black40;
+}
+
+.tile__gain__text {
+  fill: currentColor;
+  stroke: none;
+}

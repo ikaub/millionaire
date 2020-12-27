@@ -1,0 +1,45 @@
+.tile {
+  stroke: $black40;
+  fill: $white100;
+
+  &:hover {
+    stroke: $orange100;
+  }
+}
+
+.tile__selected {
+  stroke: $orange100;
+  fill: $orange5;
+}
+
+.tile__correct {
+  stroke: $green100;
+  fill: $green5;
+}
+
+.tile__wrong {
+  stroke: $red100;
+  fill: $red5;
+}
+
+.tile__variant {
+  fill: $orange100;
+  stroke: none;
+}
+
+.tile__answer {
+  fill: $black100;
+  stroke: none;
+  margin-left: 1rem;
+}
+
+@media screen and (max-width: 1000px) {
+  .tile,
+  .tile__selected,
+  .tile__correct,
+  .tile__wrong {
+    max-width: 300px;
+    max-height: 56px;
+    margin: 5px 0;
+  }
+}

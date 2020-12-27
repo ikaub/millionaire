@@ -19,3 +19,12 @@
     background-color: $orange120;
   }
 }
+
+@media screen and (max-width: 1000px) {
+  .btn {
+    height: 48px;
+    width: 90%;
+    font-size: 1.4rem;
+    margin: 0 auto;
+  }
+}
