@@ -16,3 +16,5 @@ Whenever you make a new commit, ESLint and Prettier run to guarantee the code qu
 ## git push origin [branch]
 
 Unit tests run to ensure that code to be pushed doesn't ruin the project's logic.
+
+## Please visit <a href="https://ikaub.github.io/millionaire/">GitHub Pages</a> to see deployed project.
