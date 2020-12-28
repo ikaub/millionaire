@@ -125,7 +125,7 @@ export const gameConfig: GameConfig = {
     {
       body: 'The Big4 of thrash-metal are',
       answers: {
-        A: 'Iron Maiden, Judas Priest, Venom, Motörhead',
+        A: 'Iron Maiden, Judas Priest, Motörhead',
         B: 'Pantera, Decapitated, Vader, Annihilator',
         C: 'Metallica, Rammstein, Death, Obituary',
         D: 'Metallica, Megadeth, Anthrax, Slayer',
