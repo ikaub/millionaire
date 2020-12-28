@@ -55,7 +55,7 @@ export const Game: React.FC = () => {
           ))}
         </div>
       </div>
-      <div className={`${openPanel && 'game__mobile__open'}`}>
+      <div className={`${openPanel ? 'game__mobile__open' : ''}`}>
         <div className="game__gain">
           <span className="game__mobile__close" onClick={togglePanel}>
             &#10006;
