@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router } from 'react-router-dom';
+import { HashRouter as Router } from 'react-router-dom';
 import { render, cleanup, fireEvent, getByText, queryByText } from '@testing-library/react';
 import '@testing-library/jest-dom';
 
